@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Sistema_de_Fotocopias.Aprobaciones" Collapsed="true">
+    <Position X="4.25" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQBBgAAhSQAABBAAEKBEEACWQIEIIAIgAhAAQCEAQA=</HashCode>
+      <FileName>Aprobaciones.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Servidor_de_Envio_y_Recepción" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Sistema_de_Fotocopias.Cambio_de_Contraseña" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAABAQEACQAABBAAAKgAABCEQAAAAAAAABAAACAAAA=</HashCode>
+      <FileName>Cambio de Contraseña.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sistema_de_Fotocopias.ControldeUsuarios" Collapsed="true">
+    <Position X="0.75" Y="1.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>ACQBBAIAACQAANAAgQqAAMACUQABAAABAABkASLEYEg=</HashCode>
+      <FileName>ControldeUsuarios.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sistema_de_Fotocopias.CrystalReport1" Collapsed="true">
+    <Position X="4" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAJAAAQAAAAAAAIAAAAAAAAAAAACAABAAAABAA=</HashCode>
+      <FileName>CrystalReport1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sistema_de_Fotocopias.CrystalReport2" Collapsed="true">
+    <Position X="5.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAJAAAQAAAAAAAIAAAAAAAAAAAACAABAAAABAA=</HashCode>
+      <FileName>CrystalReport2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sistema_de_Fotocopias.CrystalReport3" Collapsed="true">
+    <Position X="7.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAJAAAQAAAAAAAIAAAAAAAAAAAACAABAAAABAA=</HashCode>
+      <FileName>CrystalReport3.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sistema_de_Fotocopias.CrystalReport4" Collapsed="true">
+    <Position X="9.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAJAAAQAAAAAAAIAAAAAAAAAAAACAABAAAABAA=</HashCode>
+      <FileName>CrystalReport4.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sistema_de_Fotocopias.Login" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAACAAABAAACCAAAACABJAAAAAAABAAQBkAAA=</HashCode>
+      <FileName>Login.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sistema_de_Fotocopias.MantenimientoDepartamentos" Collapsed="true">
+    <Position X="8" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gCQBNAGAYCQAABABIACCAMQGESAAIAAAAABAAQCAQAA=</HashCode>
+      <FileName>MantenimientoDepartamentos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sistema_de_Fotocopias.MantenimientoFotocopiadora" Collapsed="true">
+    <Position X="10.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBBIASECQAABgAEADAQMAiESAgIEiCAABAAUCAQAA=</HashCode>
+      <FileName>MantenimientoFotocopiadora.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sistema_de_Fotocopias.PantallaPrincipal" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hQsCFQIAICTADWpQIEKCAMACESDEMAAgQAFGEADSAAE=</HashCode>
+      <FileName>PantallaPrincipal.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ControldeUsuarios" />
+      <Property Name="MantenimientoDepartamentos" />
+      <Property Name="MantenimientoFotocopiadora" />
+      <Property Name="Solicitud_Fotocopias" />
+      <Property Name="Aprobaciones" />
+      <Property Name="Servidor_de_Envio_y_Recepción" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Sistema_de_Fotocopias.Servidor_de_Envio_y_Recepción" Collapsed="true">
+    <Position X="7" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CCwBBAoDBSwIAlBLAAKAACSCW6ooIAAKAEFEESSEAQA=</HashCode>
+      <FileName>Servidor de Envio y Recepción.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Visor_de_Reportes" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Sistema_de_Fotocopias.Solicitud_Fotocopias" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.75" />
+    <AssociationLine Name="Aprobaciones" Type="Sistema_de_Fotocopias.Aprobaciones">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.009" Y="-0.107" Height="0.182" Width="0.5" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>OAAFBYIAHTQAAJBBAhKAAAACEQpCIAAEAABEAQCEIaA=</HashCode>
+      <FileName>Solicitud Fotocopias.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Aprobaciones" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Sistema_de_Fotocopias.Visor_de_Reportes" Collapsed="true">
+    <Position X="7" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACgEAkEAAACCASQCAAKgAAAAAAEAAAQEAAA=</HashCode>
+      <FileName>Visor de Reportes.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CrystalReport1" />
+      <Property Name="CrystalReport2" />
+      <Property Name="CrystalReport3" />
+      <Property Name="CrystalReport4" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
